@@ -1,2 +1,2 @@
-<p style='text-align: center;'>Assignment 1</p>
+<p style='text-align: center;'><b>Assignment 1</b></p>
 
