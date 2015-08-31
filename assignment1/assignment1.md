@@ -19,13 +19,18 @@ Note that agent deliberation and agent metacognition details/algorithms are not 
 # Steps
 ```
 1. Read in the question (either images or verbal representation of the images (the question).
-2. Interpret (if necessary) and store the information using nodes to represent the objects (or lack thereof) in each question frame
-3. Interpret and store the relationships between the objects, useing vertices to represent the relationships between the objects, where the vertices are labled with the transformation that the object may have undergone e.g., expanded, unchanged, deleted, etc. 
-4. Read in the potential answers, interpreting and storing the objects and their relationships for each answer.
+2. Interpret (if necessary) and store the information using nodes to represent the objects 
+(or lack thereof) in each question frame
+3. Interpret and store the relationships between the objects, useing vertices to represent the
+ relationships between the objects, where the vertices are labled with the transformation that 
+ the object may have undergone e.g., expanded, unchanged, deleted, etc. 
+4. Read in the potential answers, interpreting and storing the objects and their relationships
+ for each answer.
 5. Deliberate and select an answer.
 6. Output the answer.
 7. Learn whether or not the answer was correct.
-8. Potentially update the agent's belief system, which may include updating the semantic network representation, based on the feedback.
+8. Potentially update the agent's belief system, which may include updating the semantic network
+ representation, based on the feedback.
 ```
 
 
