@@ -1,12 +1,28 @@
-<p style='text-align: center;'><b>Assignment 1</b></p>
+<p style='text-align: center;'><b>CS 7637Assignment 1</b></p>
 <p style='text-align: center;'><b>Use Of Semantic Networks In A Cognative System That Takes The Raven's Progressive Matrices Intellegence Test</b></p>
+<p style='text-align: center;'><b>Ronald Allison</b></p>
+
+# Introduction and Abstract
 
 The Raven's Progressive Matrices test (RPM) is an intelligence test that consists of 60 questions, where each question is presented to the test-taker in visual format.  Each question consists of a logical sequence of geometric symbols, and the test-taker must select, from multiple choices, the correct missing element that successfully completes the pattern.  We will herein design a cognative system    (KBAI agent) that uses semantic networks to organize, store and otherwise represent the knowledge necessary for an agent to read, reason about and answer an RPM question. 
 
 Note that the RPM tests has no letters and no numbers, only logical sequences expressed through geometric symbols.  Therefore the process of answering  answering a given RPM question, whether the test-taker is human or computer, generally involves:
-# encoding the information
-# analyzing information 
-# selecting and outputting the (hopefully correct) answer
+- interpreting and encoding the information contained in the question
+- analyzing the information 
+- selecting and outputting the (hopefully correct) answer
+
+We will use semantic networks to represent the information contained in a given question in a form that the agent can utilize to reason about the question and ultimately output an answer.  The semantic networks consists of objects which we will categorize as geometric shapes, and transformations that these shapes may undergo.  We will represent the shapes and the transformations that the shapes may undergo as nodes and vertices, respectively.  Thus we will encode the information in a given RPM question in an organized way such that the agent may reason about the question, or analyze the information, using several different non-mutually exclusive options such as [situational calculus](https://en.wikipedia.org/wiki/Situation_calculus), directed graph logic, etc.   
+
+# Steps
+
+
+# Discussion
+
+# Conclusion
+
+# Task List
+
+
 
 
 
