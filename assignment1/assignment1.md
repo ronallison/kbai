@@ -30,7 +30,7 @@ relationships for each answer.
 6. Output the answer.
 7. Learn whether or not the answer was correct.
 8. Potentially update the agent's belief system, which may include updating the
-semantic network representation, based on the feedback.
+semantic network representation i.e. the directed graph, based on the feedback.
 
 
 
