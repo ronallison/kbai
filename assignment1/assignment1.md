@@ -16,7 +16,7 @@ We will use semantic networks to represent the information contained in a given 
 Note that agent deliberation and agent metacognition details/algorithms are not directly addressed here, rather we are focused on describing a suitable knowledge representation scheme.  However it is important to note that during metacognition, which for our agent occurs upon learning the results of its guess for a given question, the semantic network once again comes into play in that the agent could make changes to the semantic network (nodes and/or vertices of the directed graph).  That is, given new information the agent may decide to alter its belief system, which may entail altering the semantic network that it is using to encode the same.  
 
 # Steps
-'''For a given question:
+'''
 1. Read in the question (either images or verbal representation of the images (the question).
 1. Interpret (if necessary) and store the information **->** use nodes to represent the objects in each question frame (or potentially specially designated nodes to designate the lack thereof an object that appeared previously)
 1. Interpret and store the relationships between the objects **->** use vertices to represent the relationships between the objects, where the vertices are labled with the transformation that the object may have undergone e.g., expanded, unchanged, deleted, etc. 
