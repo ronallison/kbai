@@ -17,14 +17,15 @@ We will use semantic networks to represent the information contained in a given 
 Note that agent deliberation and agent metacognition details/algorithms are not directly addressed here, rather we are focused on describing a suitable knowledge representation scheme.  However it is important to note that during metacognition, which for our agent occurs upon learning the results of its guess for a given question, the semantic network once again comes into play in that the agent could make changes to the semantic network (nodes and/or vertices of the directed graph).  That is, given new information the agent may decide to alter its belief system, which may entail altering the semantic network that it is using to encode the same.  
 
 # Steps
-	1. Read in the question (either images or verbal representation of the images (the question).
-	2. Interpret (if necessary) and store the information using nodes to represent the objects (or lack thereof) in each question frame
-	3. Interpret and store the relationships between the objects, useing vertices to represent the relationships between the objects, where the vertices are labled with the transformation that the object may have undergone e.g., expanded, unchanged, deleted, etc. 
-	4. Read in the potential answers, interpreting and storing the objects and their relationships for each answer.
-	5. Deliberate and select an answer.
-	6. Output the answer.
-	7. Learn whether or not the answer was correct.
-	8. Potentially update the agent's belief system, which may include updating the semantic network representation, based on the feedback.
-
+```
+1. Read in the question (either images or verbal representation of the images (the question).
+2. Interpret (if necessary) and store the information using nodes to represent the objects (or lack thereof) in each question frame
+3. Interpret and store the relationships between the objects, useing vertices to represent the relationships between the objects, where the vertices are labled with the transformation that the object may have undergone e.g., expanded, unchanged, deleted, etc. 
+4. Read in the potential answers, interpreting and storing the objects and their relationships for each answer.
+5. Deliberate and select an answer.
+6. Output the answer.
+7. Learn whether or not the answer was correct.
+8. Potentially update the agent's belief system, which may include updating the semantic network representation, based on the feedback.
+```
 
 
