@@ -11,47 +11,20 @@ Note that the RPM tests has no letters and no numbers, only logical sequences ex
 - analyzing the information 
 - selecting and outputting the (hopefully correct) answer
 
-We will use semantic networks to represent the information contained in a given question in a form that the agent can utilize to reason about the question and ultimately output an answer.  The semantic networks consists of objects which we will categorize as geometric shapes, and transformations that these shapes may undergo.  We will represent the shapes and the transformations that the shapes may undergo as nodes and vertices, respectively.  Thus we will encode the information in a given RPM question in an organized way such that the agent may reason about the question, or analyze the information, using several different non-mutually exclusive options such as [situational calculus](https://en.wikipedia.org/wiki/Situation_calculus), directed graph logic, etc.   
+We will use semantic networks to represent the information contained in a given question in a form that the agent can utilize to reason about the question and ultimately output an answer.  The semantic networks consists of objects which we will categorize as geometric shapes, and transformations that these shapes may undergo.  We will represent the shapes and the transformations that the shapes may undergo as nodes and vertices, respectively.  Thus we will encode the information in a given RPM question in an organized way such that the agent may reason about the question, or analyze the information, using several different non-mutually exclusive options such as [situational calculus](https://en.wikipedia.org/wiki/Situation_calculus), [directed graph logic](https://en.wikipedia.org/wiki/Directed_graph), etc. in order to deliberate, metacognate and output the best answer.  
+
+Note that agent deliberation and agent metacognition details/algorithms are not directly addressed here, rather we are focused on describing a suitable knowledge representation scheme.  However it is important to note that during metacognition, which for our agent occurs upon learning the results of its guess for a given question, the semantic network once again comes into play in that the agent could make changes to the semantic network (nodes and/or vertices of the directed graph).  That is, given new information the agent may decide to alter its belief system, which may entail altering the semantic network that it is using to encode the same.  
 
 # Steps
+'''For a given question:
+1. Read in the question (either images or verbal representation of the images (the question).
+1. Interpret (if necessary) and store the information **->** use nodes to represent the objects in each question frame (or potentially specially designated nodes to designate the lack thereof an object that appeared previously)
+1. Interpret and store the relationships between the objects **->** use vertices to represent the relationships between the objects, where the vertices are labled with the transformation that the object may have undergone e.g., expanded, unchanged, deleted, etc. 
+1. Read in the potential answers, interpreting and storing the objects and their relationships for each answer.
+1. Deliberate and select an answer.
+1. Output the answer.
+1. Learn whether or not the answer was correct.
+1. Potentially update the agent's belief system, which may include updating the semantic network representation, based on the feedback.
+'''
 
 
-# Discussion
-
-# Conclusion
-
-# Task List
-
-
-
-
-
-In order to answer a RPM question the agent must read the problem, interpret the input
-
-
-But it gets harder, why is this best
-this methodology should be used because each layer of clusterfuckedness is no more than a adding a few more nodes/verticees in a non-directed cyclical graph that models the situation
-
-Any cognative system that attempts to solve such a problem must 
-
-Difficult because 
-when we take in an image, we must interpret the objects in that image
-objects may undergo transformations from one image to the next
-
-
-
-
-
-- identify and represent the objects in a given image
-- identify and represent the relationships between the objects in the image
-- identify the objects in the next image
-- determine if they are some transformation of objects in the original image
-- identify and store those transformations
-  - the transformations are vertices
-
-- identify the relationships of the transformations of that object 
-
-Our semantic network will utilize two simple concepts to represent the knowledg: objects and transformations on those objects.
-
-Objects will be shapes
-- shapes can have properties, 
