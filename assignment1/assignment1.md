@@ -32,6 +32,10 @@ relationships for each answer.
 8. Potentially update the agent's belief system, which may include updating the
 semantic network representation i.e. the directed graph, based on the feedback.
 
+# Conclusion
+Semantic networks are an optimal choice to organize and store knowledge in a way that allows the agent to analyze and reason about an RPM problem.  This approach allows a structured yet flexible scheme with regared to the reasoning, learning and memory that will take place.  Moreover, as each problem set becomes more difficult, the additional levels of difficulty simply represent more nodes and/or vertices in an already existing directed graph.
+
+
 
 
 
